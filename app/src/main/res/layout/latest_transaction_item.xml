@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+  <data>
+
+    <variable
+        name="transaction"
+        type="com.wei.weiwallet.data.model.EtherscanTransaction"
+        />
+
+    <variable
+        name="myAddress"
+        type="String"
+        />
+  </data>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:background="@color/blue"
+      >
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="16dp"
+        tools:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_weight="1"
+          android:gravity="start"
+          android:text="@{transaction.isReceive(myAddress)}"
+          android:textColor="@color/white"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          tools:text="受け取り済み"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginEnd="14dp"
+          android:text="@{transaction.displayValue()}"
+          android:textColor="@color/white"
+          android:textSize="14sp"
+          tools:text="0.035 ETH"
+          />
+    </LinearLayout>
+  </LinearLayout>
+</layout>

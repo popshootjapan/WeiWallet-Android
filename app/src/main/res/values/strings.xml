@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">weiwallet</string>
+    <string name="ethereum">イーサリアム</string>
+    <string name="send">送る</string>
+    <string name="no_history">やりとりはありません</string>
+    <string name="view_history">履歴を見る</string>
+    <string name="recently_history">直近のやりとり</string>
+    <string name="yen">円</string>
+    <string name="balance">残高</string>
+    <string name="eth">ETH</string>
+    <string name="to">宛先アドレス</string>
+    <string name="paste">クリップボードからペーストする</string>
+    <string name="invalid_address">アドレスの形式に間違いがあります</string>
+    <string name="japanese_yen">日本円</string>
+    <string name="can_send">送金可能額</string>
+    <string name="yen_worth">円分</string>
+    <string-array name="send_address_tab">
+        <item>QRコード撮影</item>
+        <item>アドレス入力</item>
+    </string-array>
+    <string name="amount">金額</string>
+    <string name="fee">手数料</string>
+    <string name="copy">コピー</string>
+    <string name="copied">コピーしました</string>
+    <string name="receive">受け取り</string>
+    <string name="receive_button_title">受け取る</string>
+    <string name="input_amount">金額入力</string>
+    <string name="select_address">宛先選択</string>
+    <string name="confirm_send">送金内容確認</string>
+    <string name="error">エラー</string>
+    <string name="ok">OK</string>
+    <string name="decide">決定する</string>
+    <string name="receive_address">受け取り用アドレス</string>
+    <string name="no_transaction_history">履歴はありません</string>
+    <string name="transaction_list_title">履歴</string>
+    <string name="my_wallet">マイウォレット</string>
+    <string name="backup">バックアップ</string>
+    <string name="terms">利用規約</string>
+    <string name="policy">プライバシーポリシー</string>
+    <string name="received_transaction">受け取り済み</string>
+    <string name="start">はじめる</string>
+    <string name="next">次へ</string>
+    <string name="finish_send">送金が完了しました</string>
+    <string name="received">受け取り済み</string>
+    <string name="sent">送金済み</string>
+    <string name="formatted_yen">%s 円</string>
+    <string name="amount_eth">= %s ETH</string>
+    <string name="available_amount_description">( %1$s 円 - 手数料 %2$s 円 )</string>
+    <string name="amount_is_zero">金額は1円以上に設定してください</string>
+    <string name="launch_failed">登録ができませんでした</string>
+    <string name="launch_failed_button">もう1度試す</string>
+    <string name="network_error">ネットワークエラー</string>
+    <string name="confirm">確認する</string>
+    <string name="backup_description">12個の単語の並びがお客様のバックアップキーです。順番通りに記録して大事に保管してください。</string>
+    <string name="terms_title">利用規約更新のお知らせ</string>
+    <string name="maintenance_title">メンテナンス中です</string>
+    <string name="maintenance_message">しばらくお待ち下さい。</string>
+    <string name="store_title">アップデートのお知らせ</string>
+    <string name="store_message">新しい機能が追加されました。アプリご利用いただくためにアップデートが必要になります。</string>
+    <string name="update_title">アップデートをする</string>
+    <string name="error_title">エラー</string>
+    <string name="confirm_terms">規約に同意する</string>
+    <string name="terms_message">いつもWei Walletをご利用いただきありがとうございます。\nサービスの安定的な提供のため、WeiWalletの利用規約を更新しました。\nご確認と同意の上、これからもWeiWalletをよろしくお願い致します。"</string>
+    <string name="restoration">バックアップキーの入力</string>
+    <string name="restoration_description">バックアップで記憶した12個の単語の並びを順番に入力してください。</string>
+    <string name="validation_mnemonic">バックアップの単語が間違っています</string>
+
+    <string name="policy_url">http://wei.tokyo/policy</string>
+    <string name="terms_url">http://wei.tokyo/terms</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.wei.weiwallet</string>
+
+    <string name="hyphen">-</string>
+
+    <string-array name="on_boarding_title">
+        <item>ようこそWei Walletへ！</item>
+        <item>スムーズな受取と送金</item>
+        <item>Wei Walletは安全です</item>
+    </string-array>
+
+    <string-array name="on_boarding_message">
+        <item>あなたのウォレットができました🎉</item>
+        <item>受取や送金は素早く完了します。\nまた、Wei Walletは余計な\n手数料を取りません。</item>
+        <item>バックアップキーを取ることでウォレットの中のイーサリアムはいつでもどこでも復元ができます。</item>
+    </string-array>
+
+    <string name="launch_title">仮想通貨を日常に連れ出そう</string>
+    <string name="launch_message">Wei Wallet(ウェイウォレット)は\nすべての人のための、もっともシンプルな\nイーサリアムウォレットです。</string>
+    <string name="launch_button">同意してウォレットを作成する</string>
+    <string name="launch_restoration_button">復元する</string>
+
+    <string name="backup_title">バックアップを取りましょう</string>
+    <string name="backup_message">バックアップを取ることであなたの保有しているイーサリアムは復元することができます</string>
+    <string name="backup_positive_button">バックアップを取る</string>
+    <string name="backup_close_button">閉じる</string>
+
+    <string name="send_failure_message">送金が失敗しました</string>
+    <string name="send_failure_retry_button">送金をやり直す</string>
+    <string name="send_failure_reselect">宛先を再選択する</string>
+
+    <string name="address_hint">0x0123456789</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

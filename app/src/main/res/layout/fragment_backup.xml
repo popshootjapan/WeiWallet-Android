@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:layout_margin="16dp"
+            android:text="@string/backup_description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:background="@color/blue_background"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_one"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="ダイナモ" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_two"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="クラブラ" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_three"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="スプチャ" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_four"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="バレル" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_five"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="ザッパ" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_six"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="マニュコ" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_seven"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="ノーチラス" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_eight"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="ハイドラ" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_nine"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="スパッタリー" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_ten"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="わかば" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_eleven"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="クーゲル" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_backup_twelve"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    tools:text="ホッカス" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

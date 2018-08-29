@@ -1,0 +1,76 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:windowBackground">@color/transparent20</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+  </style>
+
+  <style name="TitleTextView">
+    <item name="android:textColor">@color/title</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="MessageTextView">
+    <item name="android:textColor">@color/message</item>
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <style name="LinkTextView">
+    <item name="android:textColor">@color/blue_light</item>
+    <item name="android:textSize">12sp</item>
+  </style>
+
+  <style name="AddressTextView">
+    <item name="android:background">@drawable/shape_light_gray_rounded_4dp</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:paddingTop">22dp</item>
+    <item name="android:paddingBottom">22dp</item>
+    <item name="android:paddingStart">16dp</item>
+    <item name="android:paddingEnd">16dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:layout_marginStart">24dp</item>
+    <item name="android:layout_marginEnd">24dp</item>
+  </style>
+
+  <style name="ButtonTextView">
+    <item name="android:textColor">@color/colorAccent</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="HintTextView">
+    <item name="android:textColor">@color/hint</item>
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="BackupButton">
+    <item name="android:background">@drawable/selector_blue_rounded_64dp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

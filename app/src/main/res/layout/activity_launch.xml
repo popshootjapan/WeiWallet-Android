@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/launch_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_logo_vertical" />
+
+        <TextView
+            android:id="@+id/launch_title"
+            style="@style/TitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/launch_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="@string/launch_title" />
+
+        <TextView
+            android:id="@+id/launch_message"
+            style="@style/MessageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/launch_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/launch_message" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/launch_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/terms_button"
+                style="@style/LinkTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms" />
+
+            <TextView
+                android:id="@+id/privacy_policy_button"
+                style="@style/LinkTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/policy" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/launch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/restoration_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_blue_rounded_64dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="@string/launch_button"
+            android:textColor="@color/white" />
+
+
+        <Button
+            android:id="@+id/restoration_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:stateListAnimator="@null"
+            android:text="@string/launch_restoration_button"
+            android:textColor="@color/blue" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+</layout>
